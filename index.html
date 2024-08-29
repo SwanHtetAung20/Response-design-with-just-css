@@ -33,7 +33,12 @@
           <div class="inner">
             <h1 class="header">Be together, whenever.</h1>
             <div class="description">
-              A simple way to text, video chat and plan things all in one place.
+              I did this by watching
+              <strong style="color: green; font-size: 20px">
+                <a id="goToMainChannel" style="cursor: pointer"
+                  >MSquaring programming.</a
+                ></strong
+              >
             </div>
             <input
               type="text"
@@ -60,5 +65,13 @@
       </div>
     </div>
     <div class="footer">So many ways to connect with all your friends</div>
+
+    <script>
+      document
+        .getElementById("goToMainChannel")
+        .addEventListener("click", () => {
+          window.open("https://www.youtube.com/@MSquareProgramming");
+        });
+    </script>
   </body>
 </html>
